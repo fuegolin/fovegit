@@ -20,6 +20,13 @@ public class IndexController {
         return "/home";
     }
 
-    
+    @RequestMapping(value="/poiexcel")
+    public String poiexcel() {
+        logger.info("进入poiexcel");
+
+
+
+        return "/home";
+    }
 
 }
